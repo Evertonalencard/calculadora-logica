@@ -9,8 +9,8 @@ const styles = StyleSheet.create({
   
   conteinerBotaoFuncao1:{
     backgroundColor: '#9c9c9c',
-    width: 40,
-    height: 40,
+    width: 55,
+    height: 55,
     borderRadius: 100,
     alignItems: 'center', 
     justifyContent: 'center', 
@@ -23,9 +23,13 @@ const styles = StyleSheet.create({
   conjuntoDeBotoes:{
     flexDirection: 'row',
     justifyContent: 'space-between',
-    width: 100, 
+    width: 400, 
     alignSelf: 'center', 
-  }
+  }, conteinerLetras:{
+
+  },conteinerOperacao:{
+
+  },
 });
 
 export default styles;
